@@ -1,4 +1,4 @@
-name: app connect templates test
+name: App Connect templates test
 
 on:
   push:
