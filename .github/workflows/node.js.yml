@@ -18,6 +18,7 @@ jobs:
     steps:
     - run: npm config set package-lock false
     - uses: actions/checkout@v2
+    - run: touch package-lock.json
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
